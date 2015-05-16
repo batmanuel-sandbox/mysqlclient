@@ -38,5 +38,5 @@ install()
 {
 	default_install
 
-	( cd $PREFIX/lib && ln -s mysql/* . )
+	( cd $PREFIX/$RLIBDIR && ln -s mysql/* . )
 }
