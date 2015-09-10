@@ -20,7 +20,7 @@ prep()
 
 config()
 {
-	./configure --prefix="$PREFIX" --without-server --enable-thread-safe-client --enable-local-infile --with-ssl
+	./configure --prefix="$PREFIX" --without-server --enable-thread-safe-client --enable-local-infile --with-ssl --libdir=$PREFIX/lib
 
 	detect_compiler
 
